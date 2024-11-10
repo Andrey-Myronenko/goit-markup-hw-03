@@ -277,7 +277,7 @@ section {
     row-gap: 48px;
 }
 
-.portfolio-li {
+.portfolio-li-one {
     width: calc((100% - 48px) / 3);
 }
 
