@@ -32,14 +32,26 @@ ul {
     padding-left: 0;
 }
 
-header .container {
+.header-one .container {
     display: flex;
     max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0 15px 0 15px; 
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-one .container,
+.nav-one {
+    display: flex;
+    align-items: center;
+}
+
+.header-one .container,
+.nav-one .nav-menu {
+    display: flex;
+    gap: 40px;
 }
 
 a {
@@ -55,6 +67,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .accent {
@@ -66,12 +79,19 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0 24px;
 }
 
 .studio:hover,
 .studio:focus {
-        color: #404bbf;
+    color: #404bbf;
     }
+
+.header-one .container,
+.adress .adress-list {
+    display: flex;
+    gap: 40px;
+}
 
 .adress {
     font-style: normal;
@@ -102,6 +122,7 @@ section {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .hero-image .hero-button {
@@ -111,13 +132,16 @@ section {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-image .container {
     display: flex;
     max-width: 1158px;
-    padding-left: 472px;
-    padding-right: 472px;
+    padding: 188px 0;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
@@ -138,6 +162,21 @@ section {
     flex-direction: row;
 }
 
+.benefits-section .container,
+.visually-hidden {
+    overflow: hidden;
+}
+
+.benefits-section .container,
+.benefits-list {
+    display: flex;
+    gap: 24px; 
+}
+
+.benefits-list .benefits-li-one {
+    width: calc((100% - 72px) / 4);
+}
+
 .benefits {
     font-size: 0;
 }
@@ -148,6 +187,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .benefits-p {
@@ -176,10 +216,22 @@ section {
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-mark {
     background-color: #FFFFFF; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-mark .mark {
+    padding: 32px 0;
 }
 
 .team-title-two {
@@ -188,12 +240,15 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio .container {
