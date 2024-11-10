@@ -32,6 +32,10 @@ ul {
     padding-left: 0;
 }
 
+.header-one {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-one .container {
     display: flex;
     max-width: 1158px;
@@ -39,7 +43,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-one .container,
@@ -111,6 +114,7 @@ a {
     color: #ffffff;
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 0;
 }
 
 section {
@@ -141,7 +145,6 @@ section {
 .hero-image .container {
     display: flex;
     max-width: 1158px;
-    padding: 188px 0;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
@@ -162,8 +165,8 @@ section {
     flex-direction: row;
 }
 
-.benefits-section .container,
-.visually-hidden {
+
+.benefits .visually-hidden {
     overflow: hidden;
 }
 
@@ -175,10 +178,6 @@ section {
 
 .benefits-list .benefits-li-one {
     width: calc((100% - 72px) / 4);
-}
-
-.benefits {
-    font-size: 0;
 }
 
 .benefits-title {
@@ -262,6 +261,24 @@ section {
     border: auto;
 }
 
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-apps {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
 .portfolio-title-one {
     font-size: 36px;
     line-height: 1.11;
@@ -270,6 +287,7 @@ section {
     text-transform: capitalize;
     color: #2e2f42;
     border: auto;
+    margin-bottom: 72px;
 }
 
 .portfolio-title-two {
@@ -290,6 +308,7 @@ section {
 .footer-down {
     background-color: #2E2F42;
     color: #f4f4fd;
+    padding: 100px 0;
 }
 
 .logo-nav-footer {
@@ -300,6 +319,8 @@ section {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .accent-footer {
