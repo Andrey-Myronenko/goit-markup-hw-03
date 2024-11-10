@@ -32,6 +32,16 @@ ul {
     padding-left: 0;
 }
 
+header .container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
 a {
     text-decoration: none;
     color: #434455;
@@ -83,6 +93,11 @@ a {
     text-align: center;
 }
 
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -98,9 +113,29 @@ a {
     cursor: pointer;
 }
 
+.hero-image .container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 472px;
+    padding-right: 472px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
 .hero-image .hero-button:hover,
 .hero-image .hero-button:focus {
     background-color: #404BBF;
+}
+
+.benefits-section .container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
 }
 
 .benefits {
@@ -122,6 +157,16 @@ a {
 
 .team {
     background-color: #f4f4fd;
+}
+
+.team .container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
 }
 
 .team-title-one {
@@ -151,6 +196,17 @@ a {
     letter-spacing: 0.02em;
 }
 
+.portfolio .container {
+    display: flex;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    border: auto;
+}
+
 .portfolio-title-one {
     font-size: 36px;
     line-height: 1.11;
@@ -158,6 +214,7 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    border: auto;
 }
 
 .portfolio-title-two {
