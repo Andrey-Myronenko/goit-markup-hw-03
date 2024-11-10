@@ -38,27 +38,17 @@ ul {
     margin: 0 auto;
 }
 
-.header-one {
-    border-bottom: 1px solid #e7e9fc;
-}
-
 .header-one .container {
     display: flex;
-    max-width: 1158px;
-    padding: 0 15px 0 15px; 
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
+    align-items: center;
 }
 
-.header-one .container,
 .nav-one {
     display: flex;
     align-items: center;
 }
 
-.header-one .container,
-.nav-one .nav-menu {
+.nav-menu {
     display: flex;
     gap: 40px;
 }
@@ -89,6 +79,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0 24px;
+    display: block;
 }
 
 .studio:hover,
@@ -96,19 +87,21 @@ a {
     color: #404bbf;
     }
 
-.header-one .container,
-.adress .adress-list {
+.adress-list {
     display: flex;
     gap: 40px;
 }
 
 .adress {
     font-style: normal;
+    margin-left: auto;
 }
 
 .adress .link-adress {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px;
+    display: block;
 }
 
 .adress .link-adress:hover,
@@ -133,6 +126,9 @@ section {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .hero-image .hero-button {
@@ -148,27 +144,9 @@ section {
     border-radius: 4px;
 }
 
-.hero-image .container {
-    display: flex;
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
-}
-
 .hero-image .hero-button:hover,
 .hero-image .hero-button:focus {
     background-color: #404BBF;
-}
-
-.benefits-section .container {
-    display: flex;
-    max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
 }
 
 .benefits {
@@ -185,7 +163,6 @@ section {
     overflow: hidden;
 }
 
-.benefits-section .container,
 .benefits-list {
     display: flex;
     gap: 24px; 
@@ -211,16 +188,6 @@ section {
 
 .team {
     background-color: #f4f4fd;
-}
-
-.team .container {
-    display: flex;
-    max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
 }
 
 .team-title-one {
@@ -263,16 +230,6 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-}
-
-.portfolio .container {
-    max-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin-left: auto;
-    margin-right: auto;
-    flex-direction: row;
-    border: auto;
 }
 
 .portfolio-ul {
@@ -346,4 +303,5 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
