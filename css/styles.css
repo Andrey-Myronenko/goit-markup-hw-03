@@ -38,14 +38,15 @@ ul {
     margin: 0 auto;
 }
 
+.header-one {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-one .container {
     display: flex;
     align-items: center;
 }
 
-.header-one {
-    border-bottom: 1px solid #e7e9fc;
-}
 
 .nav-one {
     display: flex;
